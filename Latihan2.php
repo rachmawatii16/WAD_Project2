@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <!-- style -->
     <style>
+        {
+            margin: 0;
+	        padding: 0;
+	        font-family: sans-serif;
+        }
         .result-box {
             border: 5px solid #f5efdf;
             background-color: #fff;
@@ -16,21 +21,21 @@
             border-radius: 5px;
         }
         body {
-            background-color: #f7f7f7;
+            background-color: #fff;
         }
         .container {
             background-color: #f5efdf;
             border-radius: 8px;
             margin-top: 18px;
             padding: 18px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
         }
         .btn-primary {
-            background-color: #000000;
+            background-color: #000;
             border: none;
         }
         .btn-primary:hover {
-            background-color: #fff;
+            background-color: #000;
         }
         .icon {
             font-size: 24px;
@@ -61,8 +66,9 @@
             <p>Bilangan Kedua</p>
             <div class="form-group">
                 <input type="text" class="form-control" name="bilangan2" placeholder="Bilangan kedua">
+            <!-- hitung -->
             </div>
-            <button type="submit" class="btn btn-primary" name="hitung"><i class="fas fa-calculator icon"></i> Hitung</button>
+           <center><button type="submit" class="btn btn-primary" name="hitung"><i class="fas fa-calculator icon"></i> Hitung</button></center>
         </form>
         <?php
         // operasi
